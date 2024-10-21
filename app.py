@@ -6,7 +6,6 @@ from llm_wrapper import LLMWrapper
 import os
 
 # Set the environment variable
-os.environ['OPENAI_API_KEY'] = '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'
 CACHE_DIR = "./cache/"
 rerank = False
 rewrite_query = True
