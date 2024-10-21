@@ -6,6 +6,7 @@ from llm_wrapper import LLMWrapper
 import os
 
 # Set the environment variable
+os.environ["OPENAI_API_KEY"] = st.secrets['OPENAI_API_KEY']
 CACHE_DIR = "./cache/"
 rerank = False
 rewrite_query = True
